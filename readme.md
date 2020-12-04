@@ -23,7 +23,7 @@ $ npm install
 $ npm run dev
 ```
 
-* Run Application using PM2
+* Run Application using PM2 (for production)
 ```
 $ pm2 start npm --no-automation --name "api" -- run start
 ```
