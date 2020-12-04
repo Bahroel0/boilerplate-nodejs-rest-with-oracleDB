@@ -18,6 +18,11 @@ $ npm install
   LD_LIBRARY_PATH="<path of oracle instant client>"
 ```
 
+* Run Application in dev mode
+```
+$ npm run dev
+```
+
 * Run Application using PM2
 ```
 $ pm2 start npm --no-automation --name "api" -- run start
