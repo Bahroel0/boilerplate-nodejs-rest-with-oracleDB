@@ -1,0 +1,2 @@
+# Auth
+This project used [jwt](https://github.com/oracle/node-oracledb) as library to connect with Oracle Database. The credential saved at .env file. We can get database connection using method *getConnection()* that exist on file /config/db/oracle.js 

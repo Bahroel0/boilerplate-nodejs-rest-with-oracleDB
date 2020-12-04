@@ -1,0 +1,7 @@
+.env
+node_modules/
+public/upload/informasi/*
+public/upload/materi/*
+public/upload/tugas/*
+public/upload/jawaban/*
+public/upload/kuis/*

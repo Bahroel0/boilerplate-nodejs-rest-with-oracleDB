@@ -1,0 +1,23 @@
+@startuml program 
+actor "Client" as client
+
+node "API" {
+  component "Route" as route
+  component "Middleware" as middleware
+  component "Controller" as controller
+  component "Repository" as repository
+
+  node "Database" as database {
+    database "Oracle" as oracle
+    database "Mongo" as mongo
+  } 
+}
+
+
+client <--> route
+route <--> middleware
+route <--> controller
+controller <--> repository
+repository <--> database
+
+@enduml
