@@ -1,7 +1,7 @@
 ## Node REST API
 
 ### Description
-This program build using express that connected with Oracle DB. This program use for controlling and processing data in database.
+This program build using express that can connected with Oracle DB, mongo, mysql, or other database. This program use for controlling and processing data in database.
 
 
 ### Installation 
